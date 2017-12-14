@@ -1,0 +1,11 @@
+<RunSettings>
+  <InProcDataCollectionRunSettings>
+    <InProcDataCollectors>
+      <InProcDataCollector friendlyName="InProcDataCollectionExample" codebase="C:\Users\samadala\src\vstest.datacollectors\Examples\bin\Debug\net46\ExamplesDataCollector.dll" assemblyQualifiedName="Vstest.Datacollectors.Examples.InProcDataCollectionExample, ExamplesDataCollector, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" >
+      <Configuration>
+          <Port>4312</Port>
+        </Configuration>    
+      </InProcDataCollector>
+    </InProcDataCollectors>
+  </InProcDataCollectionRunSettings>
+ </RunSettings>
