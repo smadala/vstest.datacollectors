@@ -22,6 +22,7 @@ namespace Vstest.Datacollectors.Examples
         public InProcDataCollectionExample()
         {
             this.fileName = Path.Combine(Path.GetTempPath(), "inproctest.txt");
+            System.Diagnostics.Debugger.Launch();
         }
 
         public void Initialize(IDataCollectionSink dataCollectionSink)

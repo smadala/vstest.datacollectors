@@ -9,6 +9,8 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="1.2.0" />
     <PackageReference Include="MSTest.TestFramework" Version="1.2.0" />
+    <PackageReference Include="Microsoft.TestPlatform" Version="15.6.0-preview-20171211-02" />
+    <PackageReference Include="Microsoft.TestPlatform.Portable" Version="15.6.0-preview-20171108-02" />
   </ItemGroup>
 
 </Project>

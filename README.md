@@ -14,3 +14,7 @@
 ### Example command to run in-proc data collector
 
 `C:\Users\samadala\src\vstest.datacollectors\packages\microsoft.testplatform\15.6.0-preview-20171211-02\tools\net451\Common7\IDE\Extensions\TestPlatform\vstest.console.exe C:\Users\samadala\src\vstest.datacollectors\SimpleTestProject\bin\Debug\net46\SimpleTestProject.dll /TestAdapterPath:C:\Users\samadala\src\vstest.datacollectors\Examples\bin\Debug\net46 /TestAdapterPath:C:\Users\samadala\src\vstest.datacollectors\SimpleTestProject\bin\Debug\net46\ /settings:inproc_dc.runsettings`
+
+### Example command to run FirstChanceExceptionsInProcDataCollector data collector
+
+&C:\Users\samadala\src\vstest.datacollectors\packages\microsoft.testplatform\15.6.0-preview-20171211-02\tools\net451\Common7\IDE\Extensions\TestPlatform\vstest.console.exe C:\Users\samadala\src\vstest.datacollectors\SimpleTestProject\bin\Debug\net46\SimpleTestProject.dll /TestAdapterPath:C:\Users\samadala\src\vstest.datacollectors\vstest.datacollector\bin\Debug\net46 /TestAdapterPath:C:\Users\samadala\src\vstest.datacollectors\SimpleTestProject\bin\Debug\net46\ /diag:log_2.txt /settings:"C:\Users\samadala\src\vstest.datacollectors\vstest.datacollector\FirstChanceExceptionsInProcDataCollector.runsettings"
